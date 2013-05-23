@@ -1,0 +1,38 @@
+<div style="position: relative">
+    <div id="map_placeholder" 
+         style="width: 800px; 
+         height: 600px;
+         position: relative;
+         "></div>
+    <div style="
+         position: absolute;
+         top: 15px;
+         left:100px;
+         background-color: #fff;
+         ">
+        <div style="position: relative;padding: 5px;">
+            <!-- config-->
+            <span class="map_span_a" id="map_save_config_action_button"
+                  onclick="$().makiMap('actionSaveConfig');">
+                <img src="../map/images/button/save.png" alt="save"/>
+            </span>
+            <!-- config end -->
+            <span class="map_span_a"  id="map_undo_action_button"
+                  onclick="$().makiMap('actionUndo');">
+                <img src="../map/images/button/undo.png" alt="undo"/>
+            </span>
+            <span class="map_span_a"  id="map_reset_action_button"
+                  onclick="$().makiMap('actionReset');">
+                <img src="../map/images/button/reset.png" alt="reset"/>
+            </span>
+            <span class="map_span_a" id="map_save_action_button"
+                  onclick="$().makiMap('actionSave');">
+                <img src="../map/images/button/save.png" alt="save"/>
+            </span>
+            <span class="map_span_a" id="map_delete_action_button" style="display: none;"
+                  onclick="$().makiMap('actionDeleteCurrentMarker');">
+                <img src="../map/images/button/erase.png" alt="delete current"/>
+            </span>
+        </div>
+    </div>
+</div>
